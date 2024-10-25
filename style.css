@@ -1,0 +1,42 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color: rgb(185, 127, 186);
+color:black;
+margin: 0;
+padding: 0;    
+}
+header {
+  background: 
+  linear-gradient(rgba( 0, 0, 0, 0, 5),rgba(0, 0, 0, 0, 5)),url("C:\Users\harap\OneDrive\Documents\whatsup Image 2024-10-24 at 13.39.23_dac94a02.jpg")
+  no-repeat center center/cover;
+  color:yellow;
+  text-align: center;
+  padding: 100px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+section {
+    padding: 50px;
+    background-color: grey;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+}
+.project {
+    margin-bottom: 20px;
+}
